@@ -36,3 +36,4 @@ allmsd <-cbind(subject, allmsd)
 allmsd <- cbind(activity, allmsd)
 
 meantable <- allmsd %>% group_by(subject, activity) %>% summarise_all(mean)
+write.table(meantable, file = "Tidy_Data.txt", row.names = FALSE)
