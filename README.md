@@ -5,4 +5,4 @@
 4. The two data sets are then combined into one large data set(all) and the sctivity vector and subjet vector are called out for later use(lines 22-24).
 5. The activity numbers 1-6 are replaced with descriptive names(lines 26-31).
 6. The mean and standard deviation measurements are extracted and putt into new data set(allmsd)(lines 34-36).
-7. Three tables are created that show the mean of the data grouped by 1.activity, 2. subject, and 3. subject and activity.
+7. The tables is created that shows the mean of the data grouped by subject and activity(line 38).
