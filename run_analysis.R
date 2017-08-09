@@ -35,6 +35,4 @@ allmsd <- cbind(all[, grep("mean", names(all))], all[, grep("std", names(all))])
 allmsd <-cbind(subject, allmsd)
 allmsd <- cbind(activity, allmsd)
 
-activitymeantable <- allmsd %>% group_by(activity) %>% summarise_all(mean)
-subjectmeantable <- allmsd %>% group_by(subject) %>% summarise_all(mean)
 meantable <- allmsd %>% group_by(subject, activity) %>% summarise_all(mean)
